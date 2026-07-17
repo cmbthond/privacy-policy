@@ -5,100 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chính sách bảo mật (Privacy Policy)</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        :root {
+            --primary: #1f4ed8;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --bg: #f4f7fb;
+            --card: #ffffff;
+            --border: #e5e7eb;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            background: var(--bg);
+            color: var(--text);
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #2563eb);
+            color: #fff;
+            padding: 36px 32px;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 28px;
+            text-transform: uppercase;
+        }
+
+        .meta {
+            margin: 0;
+            opacity: 0.95;
+            font-size: 0.95rem;
+        }
+
+        main {
+            padding: 32px;
+        }
+
+        .intro {
+            margin-bottom: 24px;
+            font-size: 1rem;
+            color: var(--text);
+        }
+
+        section {
+            margin-bottom: 24px;
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: #fafafa;
+        }
+
+        section h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin: 8px 0 0 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-card {
+            background: #eef4ff;
+            border: 1px solid #dbeafe;
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+        .contact-card strong {
+            color: var(--primary);
+        }
+
+        @media (max-width: 640px) {
+            header, main {
+                padding: 24px 18px;
+            }
+
+            header h1 {
+                font-size: 22px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>CHÍNH SÁCH BẢO MẬT</h1>
-    <p>Cập nhật lần cuối: [17/07/2026]</p>
-    <p>Chào mừng bạn đến với ứng dụng của chúng tôi: CMB Port</p>
-Chào mừng bạn đến với ứng dụng CMB Port. Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân của người dùng (bao gồm nhân viên nội bộ và đối tác). Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi sử dụng ứng dụng CMB Port.
+    <div class="container">
+        <header>
+            <h1>Chính sách bảo mật</h1>
+            <p class="meta">Cập nhật lần cuối: 17/07/2026</p>
+        </header>
 
-1. Thông tin chúng tôi thu thập
-Để cung cấp dịch vụ tốt nhất cho nội bộ và đối tác, chúng tôi có thể thu thập các thông tin sau:
+        <main>
+            <p class="intro">
+                Chào mừng bạn đến với ứng dụng CMB Port. Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân của người dùng, bao gồm nhân viên nội bộ và đối tác.
+                Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi sử dụng ứng dụng CMB Port.
+            </p>
 
-Thông tin tài khoản: Tên đăng nhập, họ tên, email, số điện thoại, tên công ty/đơn vị đối tác, chức danh.
+            <section>
+                <h2>1. Thông tin chúng tôi thu thập</h2>
+                <p>Để cung cấp dịch vụ tốt nhất cho nội bộ và đối tác, chúng tôi có thể thu thập các thông tin sau:</p>
+                <ul>
+                    <li><strong>Thông tin tài khoản:</strong> tên đăng nhập, họ tên, email, số điện thoại, tên công ty/đơn vị đối tác và chức danh.</li>
+                    <li><strong>Thông tin thiết bị:</strong> mã định danh thiết bị (Device ID), hệ điều hành và phiên bản ứng dụng.</li>
+                    <li><strong>Dữ liệu hoạt động:</strong> nhật ký thao tác, trạng thái xử lý công việc và tương tác trên ứng dụng.</li>
+                </ul>
+            </section>
 
-Thông tin thiết bị: Mã định danh thiết bị (Device ID), hệ điều hành, phiên bản ứng dụng để đảm bảo tính an toàn và tương thích.
+            <section>
+                <h2>2. Mục đích sử dụng thông tin</h2>
+                <ul>
+                    <li>Xác thực danh tính người dùng, phân quyền tài khoản nội bộ hoặc đối tác.</li>
+                    <li>Quản lý, điều phối và theo dõi tiến độ công việc giữa CMB và đối tác.</li>
+                    <li>Gửi thông báo quan trọng về cập nhật ứng dụng, tác vụ cần xử lý hoặc sự cố hệ thống.</li>
+                    <li>Nâng cao tính bảo mật và ngăn chặn các hành vi truy cập trái phép.</li>
+                </ul>
+            </section>
 
-Dữ liệu hoạt động: Nhật ký thao tác (log), trạng thái xử lý công việc và tương tác trên ứng dụng nhằm phục vụ mục đích kiểm toán và quản lý công việc.
+            <section>
+                <h2>3. Chia sẻ thông tin</h2>
+                <p>Chúng tôi cam kết không bán, trao đổi hoặc chia sẻ thông tin cá nhân của bạn cho bên thứ ba vì mục đích thương mại. Thông tin chỉ được chia sẻ trong các trường hợp:</p>
+                <ul>
+                    <li>Giữa các bộ phận liên quan thuộc hệ thống quản lý của CMB để xử lý công việc.</li>
+                    <li>Khi có yêu cầu hợp pháp từ các cơ quan nhà nước có thẩm quyền.</li>
+                </ul>
+            </section>
 
-2. Mục đích sử dụng thông tin
-Thông tin thu thập được chỉ sử dụng cho các mục đích:
+            <section>
+                <h2>4. Bảo mật dữ liệu</h2>
+                <p>Chúng tôi áp dụng các biện pháp bảo mật kỹ thuật và tổ chức nghiêm ngặt, bao gồm mã hóa dữ liệu, xác thực nhiều lớp và kiểm soát truy cập, để bảo vệ dữ liệu của bạn khỏi việc bị truy cập, mất mát hoặc tiết lộ trái phép.</p>
+            </section>
 
-Xác thực danh tính người dùng (phân quyền tài khoản nội bộ hoặc đối tác).
+            <section>
+                <h2>5. Quyền của người dùng</h2>
+                <ul>
+                    <li>Bạn có quyền kiểm tra, cập nhật hoặc yêu cầu chỉnh sửa thông tin cá nhân thông qua người quản trị hệ thống (Admin).</li>
+                    <li>Bạn có quyền yêu cầu vô hiệu hóa hoặc xóa tài khoản khi không còn làm việc hoặc hợp tác với CMB.</li>
+                </ul>
+            </section>
 
-Quản lý, điều phối và theo dõi tiến độ công việc, dịch vụ giữa CMB và đối tác.
-
-Gửi thông báo quan trọng liên quan đến cập nhật ứng dụng, tác vụ cần xử lý hoặc sự cố hệ thống.
-
-Nâng cao tính bảo mật, ngăn chặn các hành vi truy cập trái phép.
-
-3. Chia sẻ thông tin
-Chúng tôi cam kết KHÔNG bán, trao đổi hoặc chia sẻ thông tin cá nhân của bạn cho bên thứ ba vì mục đích thương mại. Thông tin chỉ được chia sẻ trong các trường hợp:
-
-Giữa các bộ phận liên quan thuộc hệ thống quản lý của CMB để xử lý công việc.
-
-Khi có yêu cầu hợp pháp từ các cơ quan nhà nước có thẩm quyền.
-
-4. Bảo mật dữ liệu
-Chúng tôi áp dụng các biện pháp bảo mật kĩ thuật và tổ chức nghiêm ngặt (mã hóa dữ liệu, xác thực nhiều lớp, kiểm soát truy cập) để bảo vệ dữ liệu của bạn khỏi việc bị truy cập, mất mát hoặc tiết lộ trái phép.
-
-5. Quyền của người dùng
-Bạn có quyền kiểm tra, cập nhật hoặc yêu cầu chỉnh sửa thông tin cá nhân của mình thông qua người quản trị hệ thống (Admin).
-
-Bạn có quyền yêu cầu vô hiệu hóa hoặc xóa tài khoản khi không còn làm việc hoặc hợp tác với CMB.
-
-6. Liên hệ
-Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào liên quan đến Chính sách bảo mật này, vui lòng liên hệ với chúng tôi qua:
-
-Đơn vị phát triển: CMB
-    <h1>CHÍNH SÁCH BẢO MẬT</h1>
-    <p>Cập nhật lần cuối: [17/07/2026]</p>
-    <p>Chào mừng bạn đến với ứng dụng của chúng tôi: CMB Port</p>
-Chào mừng bạn đến với ứng dụng CMB Port. Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân của người dùng (bao gồm nhân viên nội bộ và đối tác). Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi sử dụng ứng dụng CMB Port.
-
-1. Thông tin chúng tôi thu thập
-Để cung cấp dịch vụ tốt nhất cho nội bộ và đối tác, chúng tôi có thể thu thập các thông tin sau:
-
-Thông tin tài khoản: Tên đăng nhập, họ tên, email, số điện thoại, tên công ty/đơn vị đối tác, chức danh.
-
-Thông tin thiết bị: Mã định danh thiết bị (Device ID), hệ điều hành, phiên bản ứng dụng để đảm bảo tính an toàn và tương thích.
-
-Dữ liệu hoạt động: Nhật ký thao tác (log), trạng thái xử lý công việc và tương tác trên ứng dụng nhằm phục vụ mục đích kiểm toán và quản lý công việc.
-
-2. Mục đích sử dụng thông tin
-Thông tin thu thập được chỉ sử dụng cho các mục đích:
-
-Xác thực danh tính người dùng (phân quyền tài khoản nội bộ hoặc đối tác).
-
-Quản lý, điều phối và theo dõi tiến độ công việc, dịch vụ giữa CMB và đối tác.
-
-Gửi thông báo quan trọng liên quan đến cập nhật ứng dụng, tác vụ cần xử lý hoặc sự cố hệ thống.
-
-Nâng cao tính bảo mật, ngăn chặn các hành vi truy cập trái phép.
-
-3. Chia sẻ thông tin
-Chúng tôi cam kết KHÔNG bán, trao đổi hoặc chia sẻ thông tin cá nhân của bạn cho bên thứ ba vì mục đích thương mại. Thông tin chỉ được chia sẻ trong các trường hợp:
-
-Giữa các bộ phận liên quan thuộc hệ thống quản lý của CMB để xử lý công việc.
-
-Khi có yêu cầu hợp pháp từ các cơ quan nhà nước có thẩm quyền.
-
-4. Bảo mật dữ liệu
-Chúng tôi áp dụng các biện pháp bảo mật kĩ thuật và tổ chức nghiêm ngặt (mã hóa dữ liệu, xác thực nhiều lớp, kiểm soát truy cập) để bảo vệ dữ liệu của bạn khỏi việc bị truy cập, mất mát hoặc tiết lộ trái phép.
-
-5. Quyền của người dùng
-Bạn có quyền kiểm tra, cập nhật hoặc yêu cầu chỉnh sửa thông tin cá nhân của mình thông qua người quản trị hệ thống (Admin).
-
-Bạn có quyền yêu cầu vô hiệu hóa hoặc xóa tài khoản khi không còn làm việc hoặc hợp tác với CMB.
-
-6. Liên hệ
-Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào liên quan đến Chính sách bảo mật này, vui lòng liên hệ với chúng tôi qua:
-
-Đơn vị phát triển: CMB
-
-Email hỗ trợ: support@cmbvn.com.vn
+            <section>
+                <h2>6. Liên hệ</h2>
+                <div class="contact-card">
+                    <p>Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào liên quan đến Chính sách bảo mật này, vui lòng liên hệ với chúng tôi qua:</p>
+                    <p><strong>Đơn vị phát triển:</strong> CMB</p>
+                    <p><strong>Email hỗ trợ:</strong> support@cmbvn.com.vn</p>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
