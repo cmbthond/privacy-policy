@@ -1,2 +1,2 @@
-# privacy-policy
-Một trang chính sách bảo mật (Privacy Policy) hay điều khoản dịch vụ (Terms of Service)
+# Chính sách bảo mật
+Trang chính sách bảo mật (Privacy Policy) hoặc điều khoản dịch vụ (Terms of Service)
